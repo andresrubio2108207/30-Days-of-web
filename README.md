@@ -1,2 +1,1 @@
-# 30-Days-of-web
-30 breves proyectos construidos en su totalidad en html y css
+30 días de desarrollo web: 30 proyectos completos realizados exclusivamente con HTML y CSS.
