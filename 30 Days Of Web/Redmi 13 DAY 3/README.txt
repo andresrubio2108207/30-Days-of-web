@@ -1,0 +1,1 @@
+Este proyecto es una interfaz web simple y moderna que presenta una barra de navegación fija con enlaces interactivos. Utiliza HTML y CSS para crear una estructura limpia con estilos responsivos y animaciones sutiles en el encabezado.
