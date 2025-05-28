@@ -1,0 +1,91 @@
+body {
+    background-color: #171616; 
+    background-image: 
+    linear-gradient(0deg, rgba(255,255,255,0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 30px 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+.interfaz {
+    background-color: white;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: 4px 10px 4px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 400px;
+}
+
+.screen {
+    background-color: #579fdb;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;;
+    margin-left: 12px;
+}
+
+
+button {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 62px; 
+    height: 62px; 
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+    border-radius: 10px; 
+    background-color: #171616;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    box-sizing: border-box; 
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+button:active {
+    transform: translateY(-4px); 
+    transition: transform 0.1s ease;
+}
+
+
+#divide, #X, #rest, #point, #add {
+    background-color: #e03838;
+}
+
+#same {
+    background-color: #9600a3;
+}
+
+
+
+
