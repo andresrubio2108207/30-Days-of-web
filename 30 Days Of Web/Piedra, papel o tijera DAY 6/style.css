@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #b9b7e7;
+    margin: 0;
+    padding: 0px;
+}
+
+header {
+    background-color: #323232;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+    margin: 0px;
+    border-bottom: 2px solid #363636;
+}
+
+header p {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #e6e6e6;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px;
+    margin: 10px;
+    border-radius: 20px;
+    height: 75vh;
+    align-items: center;    
+    margin-bottom:0px;
+    
+}
+
+.options button {
+    width: 350px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    background: #e0e0e0;
+    font-size: 2,5em;
+    cursor: pointer;
+    transition: transform 0.3s, ease;
+}
+
+.options button:active {
+    transform: scale(0.9);
+}
+
+.options button i {
+    font-size: 8em; 
+    transition: transform 0.3s ease; 
+}
+
+.options button:hover i {
+    transform: scale(1.2); 
+}
+
+#piedra {
+    background-color: #00BFFF; 
+}
+#papel {
+    background-color: #FF6347; 
+}
+#tijeras {
+    background-color: #90EE90; 
+}
+
+i {
+    font-size: 6em;
+    color: white;
+}
+
+#resultado {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px auto; /* Reduce el margen superior e inferior */
+    color: #323232;
+    background-color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 15px;
+    width: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    transform: translate(0px, -110px);
+}
+
+footer {
+    background-color: #323232;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer, i {
+    font-size: 2em;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
