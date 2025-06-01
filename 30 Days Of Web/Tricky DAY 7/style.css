@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+header {
+  padding: 16px;
+  background-color: rgb(48, 47, 47);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.icono-cerebro {
+  display: flex;
+  padding: 3px;
+  font-size: 25px;
+}
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 85vh;
+  padding: 20px 0 40px 0;
+  gap: 15px;
+  position: relative;
+}
+
+.arriba, .centro, .abajo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.caja > div > div {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(48, 47, 47);
+  border: 3px solid #1f2020;
+  border-radius: 10px;
+  margin: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.caja > div > div:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.mensaje-resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(48, 47, 47, 0.9);
+  padding: 20px 30px;
+  border-radius: 12px;
+  color: white;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  position: static;
+  transform: none;
+  z-index: auto;
+  margin-top: 10px;
+}
+
+#reiniciar {
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#reiniciar:hover {
+  background-color: #3498db;
+  transform: scale(1.05);
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(48, 47, 47);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+footer i {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  margin: 0 10px;
+  transform: translate(0, -4px);
+}
+
+@media (max-width: 768px) {
+  .caja {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .caja > div > div {
+    width: 90px;
+    height: 90px;
+    margin: 6px;
+    font-size: 60px;
+  }
+  .mensaje-resultado {
+    max-width: 100%;
+    padding: 15px 20px;
+  }
+}
